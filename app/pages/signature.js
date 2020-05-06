@@ -20,7 +20,7 @@ export default class Signature extends Component {
                 onChange={this.onChange}
                 ref={this.onRef}
             />
-                <TouchableOpacity onPress={this.onClear} style={{height: 50,alignItems: 'center', backgroundColor: 'gray', width: '100%', alignSelf: 'center', borderRadius: 5}}>
+                <TouchableOpacity onPress={this.onClear} style={{height: 50,alignItems: 'center', backgroundColor: 'black', width: '100%', alignSelf: 'center', borderRadius: 5}}>
                     <Text style={{padding: 10, fontSize: '20', fontWeight: 'bold'}}>Clear</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={this.onCaptureBase64} style={{height: 50,alignItems: 'center', backgroundColor: 'gray', width: '100%', alignSelf: 'center', borderRadius: 5}}>
