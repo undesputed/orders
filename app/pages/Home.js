@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     topNav:{
-        backgroundColor: 'black',
+        backgroundColor: 'white',
         alignSelf: 'center',
         height: 50,
         fontSize: 20,
