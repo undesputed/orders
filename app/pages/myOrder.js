@@ -165,7 +165,7 @@ export default class MyOrder extends Component {
             //         <Text style={{alignSelf: 'center',padding:10,fontSize:18,fontWeight: 'bold'}}>DELIVERED</Text>
             //     </View></TouchableOpacity>
         }else{
-            alert('world');
+            alert('Helloworld');
             // return <View style={{height: 40,width:Window.Width - 10, backgroundColor: 'pink',alignSelf:'center',borderRadius: 5}}>
             //         <Text style={{alignSelf: 'center',padding:10,fontSize:18,fontWeight: 'bold'}}>ON THE WAY</Text>
             //     </View>
