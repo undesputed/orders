@@ -92,7 +92,7 @@ export default class Login extends Component {
             <Logo/>
             <TextInput style={styles.inputBox}
                     underlineColorAndroid='rgba(0,0,0,0)'
-                    placeholder="User"
+                    placeholder="Username"
                     placeholderTextColor="#ffffff"
                     onChangeText = {username => this.setState({username})}
                     returnKeyType = "next"
